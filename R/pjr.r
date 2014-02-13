@@ -105,7 +105,7 @@ pjr <- function(data,unitid,cityid,unithost,unitpop,...){
 #     (data[unitpop]-data[unithost]-data["largestMinority"])/data[unitpop]
   
   #variable and factor levels
-  data["type"] <- factor(type, levels=c(1,2,3,4,5,6), 
+  type <- factor(type, levels=c(1,2,3,4,5,6), 
                          labels = c("Assimilation/Pluralism Enclave",
                                     "Mixed Enclave",
                                     "Polarized Enclave",
@@ -113,8 +113,6 @@ pjr <- function(data,unitid,cityid,unithost,unitpop,...){
                                     "Nonisolated Host Community",
                                     "Isolated Host Community"))
   
-  #cleanup
-  data["largestMinority"] <- NULL
   
-  return(data)
+  return(type)
 }
