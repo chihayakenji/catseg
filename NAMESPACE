@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 export(concentration)
 export(largest_group)
 export(pjf)
 export(polarization)
+=======
+export(bmc)
+export(pjr)
+>>>>>>> feature/bmc

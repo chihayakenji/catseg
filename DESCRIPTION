@@ -1,5 +1,6 @@
 Package: catseg
 Type: Package
+<<<<<<< HEAD
 Title: Categorical measures of segregation and diversity
 Version: 0.2
 Date: 2014-12-04
@@ -8,3 +9,15 @@ Maintainer: Guilherme Kenji Chihaya <g.chihaya@geography.umu.se>
 Description: A package to classify neighbourhoods into types based on ethnic
     composition and diversity
 License: GPL-2
+=======
+Title: What the package does (short line)
+Version: 1.0
+Date: 2013-12-04
+Author: Who wrote it
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+Collate:
+    'pjr.r'
+    'bmc.R'
+>>>>>>> feature/bmc
