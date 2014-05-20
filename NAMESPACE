@@ -3,4 +3,6 @@ export(largest_group)
 export(polarization)
 export(bmc)
 export(pjf)
-
+export(entropy_diversity)
+export(wsm)
+export(largest_group_name)
