@@ -16,7 +16,7 @@ wsm <- function(data,...){
   result <- "moderate diversity"
   #low diversity tract
   result <- ifelse(diversity <= 0.3707, "low diversity",result)
-  result <- ifelse(l_size > .80, "low diversity", result)
+  result <- ifelse(l_size > .8, "low diversity", result)
   #high diversity tract
   result <- ifelse(diversity >= 0.7414 & l_size <= .45, "high diversity", result)
   #find out what is the most numerous group
