@@ -12,7 +12,7 @@ entropy_diversity <- function(data,...){
                       data.frame(lapply(p_i,
                                         function(x){  
                                                     ifelse(x!=0,
-                                                           x*log(x),
+                                                           x*log(x^(-1)),
                                                            0)
                                                     }))))
  
