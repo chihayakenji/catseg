@@ -1,7 +1,7 @@
 #based on:
 #Wright, R., Holloway, S., & Ellis, M. (2011). Reconsidering both Diversity and Segregation: A Reply to Poulsen, Johnston and Forrest, and to Peach. Journal of Ethnic and Migration Studies, 37(1), 167–176. doi:10.1080/1369183X.2011.523865
 
-wsm <- function(data,...){
+whe <- function(data,...){
   #calculate the entropy index
   diversity <- entropy_diversity(data,...)
   
