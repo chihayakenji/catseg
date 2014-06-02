@@ -1,3 +1,4 @@
+#'@export
 entropy_diversity <- function(data,...){
   #define internal variables
   pop <- rowSums(data[,unlist(list(...))])

@@ -1,3 +1,4 @@
+#'@export
 largest_group_name <- function(data,...){
  #find index(es) of largest column(s) in each row
   largest <- apply(data[,unlist(list(...))],1,function(x){which(x==max(x))})
